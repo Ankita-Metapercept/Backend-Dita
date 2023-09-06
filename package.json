@@ -1,0 +1,54 @@
+{
+  "name": "ditaxpresso",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vedantika-Ghadage/ditaxpresso.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vedantika-Ghadage/ditaxpresso/issues"
+  },
+  "homepage": "https://github.com/Vedantika-Ghadage/ditaxpresso#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1158.0",
+    "axios": "^0.26.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.2",
+    "circular-json": "^0.5.9",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "directory-tree": "^3.5.1",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.6",
+    "exceljs": "^4.3.0",
+    "express": "^4.17.3",
+    "express-jwt": "^6.1.1",
+    "extract-zip": "^2.0.1",
+    "fs": "0.0.1-security",
+    "fs-extra": "^11.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongodb": "^4.4.1",
+    "mongoose": "^5.9.21",
+    "multer": "^1.4.5-lts.1",
+    "node-schedule": "^2.1.1",
+    "node-stream-zip": "^1.15.0",
+    "node-zip": "^1.1.1",
+    "nodemailer": "^6.7.3",
+    "nodemon": "^2.0.19",
+    "path": "^0.12.7",
+    "saxon-js": "^2.5.0",
+    "shelljs": "^0.8.5",
+    "uuid": "^9.0.0",
+    "xslt3": "^2.5.0"
+  }
+}
